@@ -44,7 +44,7 @@ export default function ShopPage() {
     fetchShop();
   }, [slug]);
 
-  if (loading) return <div className="text-center mt-12">Loading...</div>;
+  if (loading) return <div className="text-center mt-12">Laster...</div>;
   if (error) return <div className="text-center text-red-500 mt-12">{error}</div>;
   if (!shop) return <div className="text-center mt-12">Shop not found.</div>;
 

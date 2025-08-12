@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="w-full bg-white dark:bg-gray-900 shadow px-4 py-4 flex items-center justify-center mt-4">
+    <footer className="w-full bg-white dark:bg-gray-900 shadow px-4 py-4 flex items-center justify-center mt-4 text-center">
       <span className="text-gray-700 dark:text-gray-200 text-sm">
         <span>Denne siden inneholder affiliate lenker. </span> <br /> <br />
         <span>

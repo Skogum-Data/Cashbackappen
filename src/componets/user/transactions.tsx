@@ -49,9 +49,9 @@ export default function Transactions() {
     fetchTransactions();
   }, []);
 
-  if (loading) return <div className="text-white text-center mt-8">Loading transactions...</div>;
+  if (loading) return <div className="text-white text-center mt-8">Laster transaksjoner</div>;
   if (error) return <div className="text-red-500 text-center mt-8">{error}</div>;
-  if (!transactions.length) return <div className="text-white text-center mt-8">No transactions found.</div>;
+  if (!transactions.length) return <div className="text-white text-center mt-8">Ingen transaksjoner funnet!</div>;
 
   return (
     <div className="bg-white rounded-xl shadow p-6 mt-8 max-w-2xl mx-auto overflow-x-auto">

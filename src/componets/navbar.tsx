@@ -25,7 +25,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 w-full bg-white dark:bg-gray-900 shadow px-8 py-2 flex items-center justify-between">
       <div className="text-xl font-bold text-gray-900 dark:text-white">
-        CashbackApp
+        CashbackAppen
       </div>
       <ul className="flex space-x-6">
         <li>
@@ -52,15 +52,15 @@ export default function Navbar() {
               aria-hidden="true"
               tabIndex={-1}
             >
-              Sign In
+              Logg inn
             </Link>
           ) : user ? (
             <Link href="/profile" className="text-gray-700 dark:text-gray-200 hover:underline">
-              Profile
+              Profil
             </Link>
           ) : (
             <Link href="/signup" className="text-gray-700 dark:text-gray-200 hover:underline">
-              Sign In
+              Logg inn
             </Link>
           )}
         </li>
