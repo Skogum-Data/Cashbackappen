@@ -5,14 +5,9 @@ export default function Home() {
   return (
     <div className="font-sans min-h-screen flex flex-col items-center bg-black">
       {/* Banner image stretching across the screen */}
-      <div className="relative w-screen max-w-none -mx-4 sm:-mx-8 md:-mx-20 h-56 md:h-72 mb-[-4rem]">
-        <Image
-          src="/0089-fotoRobinLund-Skolestart-pa-tavla.jpg" // Place your image in /public and update the path
-          alt="CashbackApp banner"
-          fill
-          className="object-cover"
-          priority
-        />
+       <div className="relative w-screen max-w-none -mx-4 sm:-mx-8 md:-mx-20 h-56 md:h-72 mb-[-4rem]">
+      
+
         {/* Card on top of the image */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="bg-white bg-opacity-90 rounded-xl shadow-lg p-8 max-w-lg w-full mx-4">
