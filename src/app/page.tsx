@@ -11,7 +11,7 @@ export default function Home() {
         {/* Card on top of the image */}
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="bg-white bg-opacity-90 rounded-xl shadow-lg p-8 max-w-lg w-full mx-4">
-            <h1 className="text-3xl font-bold mb-2 text-black text-center">Velkommen til CashbackApp</h1>
+            <h1 className="text-3xl font-bold mb-2 text-black text-center">Velkommen til CashbackAppen!</h1>
             <p className="text-lg text-gray-700 text-center">
               Din plattform for å få igjen litt av de pengene du bruker!
             </p>
@@ -40,6 +40,10 @@ export default function Home() {
                   <span className="text-4xl mb-4">3️⃣</span>
                   <p className="text-black text-center font-semibold mb-2">Handle ...</p>
                   <p className="text-black text-center">... og vi sporer kjøpet ditt og du får cashback når kjøpet er bekreftet.</p>
+                </div> <br />
+                <div className="bg-white bg-opacity-90 rounded-xl shadow-lg p-8 mx-4 flex flex-col items-center col-span-1 sm:col-span-2 lg:col-span-3">
+                  <span className="text-black text-4xl mb-4">Vi jobber fortsatt med siden...</span>
+                  <p className="text-black text-center">... men imens kan du opprette deg en konto, og være klar til vi er ferdige :D</p>
                 </div>
               </div>
             </div>
